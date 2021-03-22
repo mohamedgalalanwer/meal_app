@@ -1,11 +1,9 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'models/category.dart';
 import 'models/meal.dart';
 
 const DUMMY_CATEGORIES = const [
-
   Categories(
     id: 'c1',
     title: 'Italian',
