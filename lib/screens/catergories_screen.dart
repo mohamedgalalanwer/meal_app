@@ -9,6 +9,7 @@ class CategoriesScreen extends StatelessWidget {
       appBar: AppBar(title: Text('meal'),),
       body: GridView(
           padding: EdgeInsets.all(25),
+          ////// use  this to read data from data base and use items category
           children:DUMMY_CATEGORIES.map((catData) =>
           CategoryItem(catData.id, catData.title, catData.color)
           ).toList() ,
